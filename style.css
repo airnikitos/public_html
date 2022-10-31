@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+
+img {
+    width: 100%;
+}	
+body {
+    width:800px;
+    margin:0 auto;
+    font-family:'Arial', sans-serif;
+    line-height:1.5;
+    background-color: #C9D1C8;
+    color: #04202C;
+}
+header {
+    font-family:'Arial', sans-serif;
+    font-size: 75%;
+    text-align: center;
+    color: #04202C;
+    background-color: #728c7e;
+}
+nav {
+    margin-top: 30 ;
+    font-family:'Arial', sans-serif;
+    font-size: 130%;
+    text-align: center;
+    background-color: #728c7e; 
+    color: #04202C;
+}	
+nav a {
+    color: #04202C;
+}
+p.niz {
+    float:right;	
+}
+div.column60 {
+    width:60%; 
+    float:left;
+}
+div.column40 {
+    width:40%;
+    float:left;
+}
+div.column40 figure { 
+    margin-right:0px;
+}
+h3.center {
+    text-align: center;
+}
+h2.center {
+    text-align: center;
+}
+p.upper {
+    line-height: 1;
+}
+button.butt {
+    background-color:  #a1c2b1; 
+    font-size: 150%;
+}
+a{
+    text-decoration: none;
+}
+a.notdec {
+    text-decoration: none;
+    color:#04202C;
+}
+button.butt1 {
+    background-color: #a1c2b1;
+    font-size: 100%;
+}
+p.prob {
+    line-height:1.2;
+}
+.hcenter{
+    text-align: center;
+}
+
+.tatata{
+     border: 1px solid black;
+}

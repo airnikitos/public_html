@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Практикум 8</title>
+    <link href="../style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <nav>
+      <a href="../index.html">Главная страница</a> &nbsp 
+      <a href="../about_me.html">О себе</a> &nbsp
+      <a href="../semestry.html"><b>Семестры</b></a> &nbsp
+      <a href="http://www.fbb.msu.ru/" target="_blank">Сайт ФББ</a>
+    </nav>
+    
+    <h3 class="center">Практикум 11</h3>
+    <h4 class="hcenter">  Выбор и описание семейства доменов </h4>
+    a: Выбранное семейство: LIFR_N (PF18207), ID: LIFR_N, AC: PF18207, функции домена: белки находят на N-концевых рецепторах факторов ингибирования лейкимии, и выступают посредниками активности факторов ингибирования лейкимии и других Интерлейкинов-6 (ИЛ-6) через формирование сигнальных комплексов с гликопротеином 130(gp130)[1]<br>
+    b: Число последовательностей seed - 33 , full - 198<br>
+    c:Число доменных архитектур - 6 <br>
+    d: Архитектура LIFR_N, LIFR_D2, fn3 - 102 белка; Архитектура  LIFR_N, LIFR_D2 - 87 белков<br>
+    e: 3d структура известная для двух белков <br>
+    f: белки этого семейства доменов встречаются у 137 видов позвоночных <br>
+    g: Профиль был создан в 2015 году и содержит 79 позиций <br>
+    <h4 class="hcenter">Задание 3</h4>
+      <p>
+          Порог E-value оставил на 0.05
+      </p>
+
+          Сравниваемые белки:<br>
+        <table>
+            <tr>
+                <td style="border: 1px solid black">Protein Name</td>
+                <td style="border: 1px solid black">AC</td>
+                <td style="border: 1px solid black">length</td>
+                <td style="border: 1px solid black">domain architecture</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid black">Leukemia inhibitory factor receptor isoform X2 </td>
+                <td style="border: 1px solid black">A0A1S3W450_ERIEU</td>
+                <td style="border: 1px solid black">1069 </td>
+                <td style="border: 1px solid black">LIFR_N, LIFR_D2, fn3</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid black">Leukemia inhibitory factor receptor</td>
+                <td style="border: 1px solid black">A0A091Q0S1_LEPDC</td>
+                <td style="border: 1px solid black">1077</td>
+                <td style="border: 1px solid black">LIFR_N, LIFR_D2</td>
+            </tr>
+        </table>
+          
+      <figure>
+            <figcaption>
+                <h5> График 1. Карта локального сходства </h5>
+            </figcaption>
+            <img src="../files/table1.png" alt="Карта локального сходства">
+        </figure>
+      <p>
+          По графику видно, что белки достаточно схожи, хотя нашлось достаточно много инделей. Так же видны участки малого сходства.
+      </p>
+      <h4 class="hcenter">Задание 4</h4>
+      <p> В <a href="../files/alignment(pr11).jvp" download >jalview-проекте(кликабельно для скачивания)</a> я, при помощу функции calculate -> Tree  -> average distance, разделил последовательности на группы (из них две получились превалирующими по размеру, зеленая и синяя). Это разделение можно увидеть, посмотрев на раскраску позиций по консервативности. У обоих групп есть много общих высококонсервативных участков, но у каждой из них так же есть участки, не характерные другой. <br>
+          Например, позиции 40-42 и 88-89 являются высококонсервативными, для зеленой группы, а для синей нет.
+          Пример общих высококонсервативных участков - позиции 71-73
+      </p>
+      <h4 class="hcenter">Задание 5</h4>
+      <a href="../files/uniprot-download_true_fields_accession_2Creviewed_2Cid_2Cprotein_nam-2022.09.14-05.40.33.36.xlsx" download> Ссылка на загрузку таблицы(кликабельна для скачивания)</a>
+    <h3 class="center"> Ссылки на источники<h3>
+        <p>
+        1.Huyton T, Zhang JG, Luo CS, Lou MZ, Hilton DJ, Nicola NA, Garrett TP;, Proc Natl Acad Sci U S A. 2007;104:12737-12742.: An unusual cytokine:Ig-domain interaction revealed in the crystal structure of leukemia inhibitory factor (LIF) in complex with the LIF receptor. PUBMED:17652170 EPMC:17652170
+        </p>
+    <p class="niz">
+    Задонский Никита, ФББ, 1 курс.
+    </p>
+  </body>
+</html>

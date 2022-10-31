@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Практикум 8</title>
+    <link href="../style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <nav>
+      <a href="../index.html">Главная страница</a> &nbsp 
+      <a href="../about_me.html">О себе</a> &nbsp
+      <a href="../semestry.html"><b>Семестры</b></a> &nbsp
+      <a href="http://www.fbb.msu.ru/" target="_blank">Сайт ФББ</a>
+    </nav>
+    
+    <h3 class="center">Практикум 8</h3>
+    <h4 class="hcenter">  Введение </h4>
+      
+    <p>
+        Белок, который мне выпал - Fructose-1,6-bisphosphatase/inositol-1-monophosphatase(фруктозо-1,6-бисфосфатаза/инозитол-1-монофосфатаза). Это фосфотаза широкой специфичности. Например, она может дефосфорилировать фруктозо-1,6-бисфосфат, а так же l и d изомеры инозитол-1-фосфата.[1]
+        <br>Организм, в геноме которого закодирован данный белок - Archaeoglobus fulgidus (DSM 4304)(археи, эвриархиоты).
+        Это гипертермофильная сульфаторедуцирующая анаэробная архея. В ходе жизнедеятельности архея выделяет сульфид железа, который может повреждать нефтедобывающее оборудование и приводить к нефтяному загрязнению.[2]
+         
+    </p>
+    <h4 class="hcenter"> Задание 1</h4>
+      <h5> Выбранные протеомы</h5>
+      <p>
+          В качестве протеома (для моей археи) я выбрал UP000002199. Он содержит 2394 белка, 1036 которых есть в базе данных Swiss-Prot. 98,7% белков полные, согласно BUSCO. Протеом референсный.
+          CPD - unknown, предположу, что это так, потому что данная архея сильно отличается от других эвриархиот[2], и для корректной работы алгоритма Complete Proteome Detector недостаточно родственных протеомов. <br>
+          <br>Вторым протеомом я выбрал протеом Shewanella oneidensis (strain MR-1)(UP000008186), так как это так как данная бактерия так же сульфаторедуцирующая и анаэробная[3]. Интересно будет их сравнить. Так же ее протеом референсный. BUSCO - C:99,8%, CPD - standard. Протеом содержит 4068 белка, из которых 653 входят в Swiss-Prot. <br>
+          <br> Но стоит обратить внимание на то, что процент аннотированных белков у заданного(43.3%) и контрольного(16,1%) организмов достаточно сильно отличается. Моя идея относительно этого - Archeoglobus fulgidus - интересный объект для исследования, так как для эвриархиот это достаточно необычный организм[2], в то время, как Shewanella oneidensis достаточно типичный представитель Shewanella spp. и не представляет особого интереса как объект исследования, потому что среди Shevanella spp. есть достаточно много патогенных бактерий и они хорошо изучены.
+          
+      </p>
+    <h4 class="hcenter"> Задание 2</h4>
+      <h5> Трансмембранные белки</h5>
+      Запрос для основного протеома - (proteome:UP000002199) AND ((ft_transmem:*) AND (ftlen_transmem:[* TO *]))
+      <br>Нашлось 425 белков, что составляет 17,75% от общего числа.
+      <br>
+      <br> Запрос для контрольного протеома - (proteome:UP000008186) AND ((ft_transmem:*) AND (ftlen_transmem:[* TO *]))
+      <br>Нашлось 824 белка, что составляет 20,17% от общего числа.<br>
+      <br> Доля трансмембранных белков очень схожа. Количество аннотированых белков у обоих организмов невелико. 
+      <h5> Ферменты</h5>
+      Запрос для основного протеома - (proteome:UP000002199) AND (cc_function:enzyme)
+      <br>Нашлось 23 белка, что составляет 0,96% от общего числа.
+      <br>
+      <br> Запрос для контрольного протеома - (proteome:UP000008186) AND (cc_function:enzyme)
+      <br>Нашлось 59 белков, что составляет 1,44% от общего числа.<br>
+      <br>Количественная доля ферментов в протеомах данных организмов так же схожа. Думаю, что разница в аннотированности не сильно сказывается на результате этих запросов, так как ферменты - сложные молекулы, представляющие интерес для исследования. Относительное количество аннотированых молекул больше, чем в случае с трансмембранными белками.
+      
+      <h5>Функциональная группа</h5>
+      Я выбрал контрольный организм(его протеом), так как он сульфаторедуцирующий (как и заданный), поэтому я сравню ферменты, участвующие непосредственно в процессе редуцирования сульфатов. Его первый этап для обоих организмов - перевод сульфатов в сульфиды. У заданного организма в этот процесс вовлечена сульфатоаденилин трансфераза[2]. Посмотрим, какой белок выполняет схожий процесс у контрольного организма.<br>
+      <br>Запрос для заданного белка - (proteome:UP000002199) AND (cc_catalytic_activity:"CHEBI:16189")
+      <br> Единственный результат - Sulfate adenylyltransferase<br>
+      <br>Запрос для контрольного белка - (proteome:UP000008186) AND (cc_catalytic_activity:"CHEBI:16189")"
+      <br> В данном случае найдено уже четыре записи, две из которых сабъюниты белка сульфатоаденилин трансферазы<br>
+      <br> Данный результат интересен тем, что у двух различных, неблизкородственных организмов важную для их жизнедеятельности фунцию выполняют схожие ферменты.
+      <h5> Собственная проверка</h5>
+      <p>
+          Я решил проверить, все ли белки данных протеомов начинаются на метионин. Выполнил с использованием команд на kodomo:<br>
+          Использованная команда: zcat UP000002199.swiss.gz UP000008186.swiss.gz | seqret -filter 'swiss::stdin:*[1:1]' | grep -v "^>" | sort -u
+          Для обоих протеомов единственная буква - M. Значит, что все белки в них начинаются на метионин.
+          
+      </p>
+    <h4 class="hcenter"> Ссылки на источники</h4>
+      1. https://www.uniprot.org/uniprotkb/O30298/entry
+      <br>2. Klenk HP et al. (1997)
+Klenk, H.P., Clayton, R.A., Tomb, J.-F., White, O., Nelson, K.E., Ketchum, K.A., Dodson, R.J., Gwinn, M., Hickey, E.K., Peterson, J.D., Richardson, D.L., Kerlavage, A.R., Graham, D.E., Kyrpides, N.C., Fleischmann, R.D., Quackenbush, J., Lee, N.H., Sutton, G.G., Gill, S., Kirkness, E.F., Dougherty, B.A., McKenney, K., Adams, M.D., Loftus, B., Peterson, S., Reich, C.I., McNeil, L.K., Badger, J.H., Glodek, A., Zhou, L., Overbeek, R., Gocayne, J.D., Weidman, J.F., McDonald, L., Utterback, T., Cotton, M.D., Spriggs, T., Artiach, P., Kaine, B.P., Sykes, S.M., Sadow, P.W., D'Andrea, K.P., Bowman, C., Fujii, C., Garland, S.A., Mason, T.M., Olsen, G.J., Fraser, C.M., Smith, H.O., Woese, C.R., and Venter, J.C. "The complete genome sequence of the hyperthermophilic, sulphate-reducing archaeon Archaeoglobus fulgidus." Nature (1997) 390:364-370 (https://www.nature.com/articles/37052)
+      <br>3. Justin L. Burns, Thomas J. DiChristina "Anaerobic Respiration of Elemental Sulfur and Thiosulfate by Shewanella oneidensis MR-1 Requires psrA, a Homolog of the phsA Gene of Salmonella enterica Serovar Typhimurium LT2." Applied and Enviromental Microbiology (2009 Aug.) 75(16): 5209–5217
+    <p class="niz">
+    Задонский Никита, ФББ, 1 курс.
+    </p>
+  </body>
+</html>

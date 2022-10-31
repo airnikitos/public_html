@@ -1,0 +1,969 @@
+RID: J20Y01X2016	
+Job Title:AAB91288:extragenic suppressor (suhB) [Archaeoglobus...				
+Program: BLASTP 
+Database: swissprot Non-redundant UniProtKB/SwissProt sequences
+Query #1: extragenic suppressor (suhB) [Archaeoglobus fulgidus DSM 4304] Query ID: gb|AAB91288.1 Length: 252
+
+Sequences producing significant alignments:
+                                                                  Scientific      Common                     Max    Total Query   E   Per.   Acc.                        
+Description                                                       Name            Name            Taxid      Score  Score cover Value Ident  Len        Accession        
+RecName:...                                                       Archaeoglobu... NA              224325     508    508   100%  0.0   100.00 252        O30298.1         
+RecName:...                                                       Methanotherm... NA              187420     134    134   98%   7e-37 36.86  280        O26957.1         
+RecName:...                                                       Methanocaldo... NA              243232     127    127   96%   1e-34 34.88  252        Q57573.1         
+RecName: Full=Bifunctional NADP phosphatase/NAD kinase;...        Methanococcu... NA              267377     132    132   96%   3e-34 32.14  566        Q6LX63.1         
+RecName:...                                                       Thermococcus... NA              69014      117    117   96%   8e-31 37.40  256        Q5JH93.1         
+RecName: Full=Bifunctional NADP phosphatase/NAD kinase;...        Methanocaldo... NA              243232     120    120   97%   6e-30 30.61  574        Q58327.2         
+RecName: Full=Fructose-1,6-bisphosphatase; Short=FBPase...        Pyrococcus f... NA              186497     97.8   97.8  88%   2e-23 32.17  254        Q8TZH9.1         
+RecName: Full=Phosphatase IMPL1, chloroplastic; AltName:...       Arabidopsis ... thale cress     3702       88.2   88.2  82%   4e-19 33.33  371        Q94F00.2         
+RecName:...                                                       Thermotoga m... NA              243274     84.3   84.3  62%   3e-18 33.93  256        O33832.1         
+RecName:...                                                       Aquifex aeol... NA              224324     84.3   84.3  82%   3e-18 32.31  264        O67791.1         
+RecName: Full=Putative Nus factor SuhB; AltName:...               Neisseria me... NA              122586     79.7   79.7  81%   2e-16 32.16  261        Q9JZ07.1         
+RecName: Full=Putative Nus factor SuhB; AltName:...               Neisseria me... NA              122587     79.3   79.3  81%   2e-16 32.16  261        Q9JU03.1         
+RecName: Full=Inositol-1-monophosphatase; Short=I-1-Pase;...      Mesorhizobiu... NA              266835     76.3   76.3  84%   3e-15 29.66  266        Q98F59.1         
+RecName: Full=Nus factor SuhB; AltName:...                        Pseudomonas ... NA              208964     75.9   75.9  82%   5e-15 29.66  271        Q9HXI4.1         
+RecName: Full=Inositol-1-monophosphatase; Short=I-1-Pase;...      Caulobacter ... NA              190650     74.7   74.7  82%   9e-15 28.14  256        Q9A3D5.1         
+RecName: Full=Inositol monophosphatase 1; Short=IMP 1;...         Pongo abelii    Sumatran ora... 9601       69.7   69.7  71%   9e-13 25.50  277        Q5R4X0.1         
+RecName: Full=Inositol monophosphatase 1; Short=IMP 1;...         Homo sapiens    human           9606       69.7   69.7  71%   9e-13 25.50  277        P29218.1         
+RecName: Full=Inositol monophosphatase 1; Short=IMP 1;...         Bos taurus      cattle          9913       67.4   67.4  75%   5e-12 24.40  277        P20456.1         
+RecName: Full=Inositol-1-monophosphatase; Short=I-1-Pase;...      Synechocysti... NA              1111708    66.6   66.6  84%   1e-11 30.90  287        P74158.1         
+RecName: Full=Inositol monophosphatase 1; Short=IMP 1;...         Mus musculus    house mouse     10090      63.9   63.9  69%   7e-11 27.00  277        O55023.1         
+RecName: Full=Histidinol-phosphatase; Short=HolPase; AltName:...  Streptomyces... NA              100226     62.0   62.0  83%   3e-10 27.78  266        Q9K4B1.1         
+RecName: Full=Nus factor SuhB; AltName:...                        Xylella fast... NA              183190     61.2   61.2  74%   6e-10 24.88  275        Q87BG1.1         
+RecName: Full=Nus factor SuhB; AltName:...                        Xylella fast... NA              160492     61.2   61.2  81%   7e-10 24.44  275        Q9PAM0.1         
+RecName: Full=Histidinol-phosphatase; Short=HolPase; AltName:...  Chlorobaculu... NA              517417     58.9   58.9  80%   5e-09 25.64  259        P56160.2         
+RecName: Full=Inositol monophosphatase 2; Short=IMP 2;...         Rattus norve... Norway rat      10116      58.2   58.2  73%   9e-09 27.98  290        Q8CIN7.1         
+RecName: Full=Inositol monophosphatase 2; Short=IMP 2;...         Mus musculus    house mouse     10090      58.2   58.2  73%   9e-09 27.98  290        Q91UZ5.1         
+RecName: Full=Histidinol-phosphatase; Short=HolPase; AltName:...  Corynebacter... NA              196627     49.7   49.7  87%   7e-06 25.70  260        Q8NS80.1         
+RecName: Full=Histidinol-phosphatase; Short=HolPase; AltName:...  Mycobacteriu... NA              83332      47.8   47.8  83%   3e-05 27.66  260        P95189.2         
+RecName: Full=Fructose-1,6-bisphosphatase class 1 1;...           Xanthobacter... NA              78245      43.5   43.5  36%   7e-04 32.65  371        A7IGL7.1         
+RecName: Full=3'(2'),5'-bisphosphate nucleotidase; AltName:...    Dictyosteliu... NA              44689      40.8   40.8  29%   0.006 35.06  332        Q55F34.1         
+RecName: Full=Fructose-1,6-bisphosphatase class 1; Short=FBPas... Brucella sui... NA              204722     39.3   39.3  57%   0.022 26.45  340        Q8FVG9.1         
+RecName: Full=Fructose-1,6-bisphosphatase class 1; Short=FBPas... Brucella can... NA              483179     39.3   39.3  57%   0.022 26.45  340        A9MCF4.1         
+RecName: Full=Fructose-1,6-bisphosphatase class 1; Short=FBPas... Brucella sui... NA              470137     38.9   38.9  57%   0.023 26.45  340        A9WZF8.1         
+RecName: Full=Uncharacterized protein y4fL [Sinorhizobium fred... Sinorhizobiu... NA              394        38.5   38.5  24%   0.034 38.46  275        P55450.1         
+
+
+Alignments:
+
+>RecName: Full=Fructose-1,6-bisphosphatase/inositol-1-monophosphatase; Short=FBPase/IMPase; AltName: Full=Inositol-1-phosphatase; Short=I-1-Pase [Archaeoglobus fulgidus DSM 4304]
+Sequence ID: O30298.1 Length: 252
+Range 1: 1 to 252
+
+Score:508 bits(1308), Expect:0.0, 
+Method:Compositional matrix adjust., 
+Identities:252/252(100%), Positives:252/252(100%), Gaps:0/252(0%)
+
+Query  1    MDERDALRISREIAGEVRKAIASMPLRERVKDVGMGKDGTPTKAADRVAEDAALEILRKE  60
+            MDERDALRISREIAGEVRKAIASMPLRERVKDVGMGKDGTPTKAADRVAEDAALEILRKE
+Sbjct  1    MDERDALRISREIAGEVRKAIASMPLRERVKDVGMGKDGTPTKAADRVAEDAALEILRKE  60
+
+Query  61   RVTVVTEESGVLGEGDVFVALDPLDGTFNATRGIPVYSVSLCFSYSDKLKDAFFGYVYNL  120
+            RVTVVTEESGVLGEGDVFVALDPLDGTFNATRGIPVYSVSLCFSYSDKLKDAFFGYVYNL
+Sbjct  61   RVTVVTEESGVLGEGDVFVALDPLDGTFNATRGIPVYSVSLCFSYSDKLKDAFFGYVYNL  120
+
+Query  121  ATGDEYYADSSGAYRNGERIEVSDAEELYCNAIIYYPDRKFPFKRMRIFGSAATELCFFA  180
+            ATGDEYYADSSGAYRNGERIEVSDAEELYCNAIIYYPDRKFPFKRMRIFGSAATELCFFA
+Sbjct  121  ATGDEYYADSSGAYRNGERIEVSDAEELYCNAIIYYPDRKFPFKRMRIFGSAATELCFFA  180
+
+Query  181  DGSFDCFLDIRPGKMLRIYDAAAGVFIAEKAGGKVTELDGESLGNKKFDMQERLNIVAAN  240
+            DGSFDCFLDIRPGKMLRIYDAAAGVFIAEKAGGKVTELDGESLGNKKFDMQERLNIVAAN
+Sbjct  181  DGSFDCFLDIRPGKMLRIYDAAAGVFIAEKAGGKVTELDGESLGNKKFDMQERLNIVAAN  240
+
+Query  241  EKLHPKLLELIK  252
+            EKLHPKLLELIK
+Sbjct  241  EKLHPKLLELIK  252
+
+
+
+
+>RecName: Full=Fructose-1,6-bisphosphatase/inositol-1-monophosphatase; Short=FBPase/IMPase; AltName: Full=Inositol-1-phosphatase; Short=I-1-Pase [Methanothermobacter thermautotrophicus str. Delta H]
+Sequence ID: O26957.1 Length: 280
+Range 1: 13 to 278
+
+Score:134 bits(337), Expect:7e-37, 
+Method:Compositional matrix adjust., 
+Identities:101/274(37%), Positives:146/274(53%), Gaps:35/274(12%)
+
+Query  6    ALRISREIAGEVRKAIASMPLRERVKDVGMGKDGTPTKAADRVAEDAALEILRK--ERVT  63
+            A+R++ ++   V   + +    E +K   MG DGTPTK  D VAED A+ +L      VT
+Sbjct  13   AVRMAEQVERAVSPLVGTEDAGEIIK---MGADGTPTKLIDLVAEDEAVGVLESTGRPVT  69
+
+Query  64   VVTEESGVL---GEGD---VFVALDPLDGTFNATRGIPVYSVSLCFS------YSDKLKD  111
+            +++EE GVL    EGD   +   +DPLDGT NA R IP Y +S+  +       +  L +
+Sbjct  70   IISEEIGVLHINSEGDEPGIIFVVDPLDGTSNAIRNIPFYGISVAVAERHPDGAAPTLNN  129
+
+Query  112  AFFGYVYNLATGDEYYA-DSSGAYRNGERIEVSDAEEL---YCNAIIYYPDRKF------  161
+               G+V N ATGD Y+A    GA+ N + I  S    L      A IY    +F      
+Sbjct  130  VLMGFVKNFATGDLYWAIKGQGAFLNEKAISSSSQSSLDRTSLGAFIY--GTRFRRVDSI  187
+
+Query  162  --PFKRMRIFGSAATELCFFADGSFDCFLDIRPGKMLRIYDAAAGVFIAEKAGGKVTELD  219
+                +RMRI GS A EL + A GS+D F+D+R  + LRI D AA   I E+AGG VT   
+Sbjct  188  CRVIRRMRILGSVALELAYVASGSYDAFMDLR--ENLRIVDIAASKLIVEEAGGVVTNER  245
+
+Query  220  GESLGNKKFDMQERLNIVAA-NEKLHPKLLELIK  252
+            G  + +   +++ R ++VAA N +LH K+++ ++
+Sbjct  246  GGEI-DGLLNVKARTSLVAAGNLELHEKIMQTLE  278
+
+
+
+
+>RecName: Full=Fructose-1,6-bisphosphatase/inositol-1-monophosphatase; Short=FBPase/IMPase; AltName: Full=Inositol-1-phosphatase; Short=I-1-Pase [Methanocaldococcus jannaschii DSM 2661]
+Sequence ID: Q57573.1 Length: 252
+Range 1: 6 to 248
+
+Score:127 bits(319), Expect:1e-34, 
+Method:Compositional matrix adjust., 
+Identities:90/258(35%), Positives:139/258(53%), Gaps:30/258(11%)
+
+Query  9    ISREIAGEVRKAIASMPL---RERVKDVGMGKDGTPTKAADRVAEDAALEILRKERVTVV  65
+            I + IA E+ K I  +P    +++   VG    G  T+  D+++ED AL+ L+   V +V
+Sbjct  6    IGKNIAKEIEKEI--LPYFGRKDKSYVVGTSPSGDETEIFDKISEDIALKYLKSLNVNIV  63
+
+Query  66   TEESGVLGEGDVF-VALDPLDGTFNATRGIPVYSVSLCFSYSDKLKDAFFGYVYNLATGD  124
+            +EE GV+     + V +DP+DG+FN   GIP ++   CF    K  + ++G  Y   T  
+Sbjct  64   SEELGVIDNSSEWTVVIDPIDGSFNFINGIPFFA--FCFGVF-KNNEPYYGLTYEFLTKS  120
+
+Query  125  EYYA-DSSGAYRNGERIEVSDAEELYCNAII-YYPDRKFPF-------KRMRIFGSAATE  175
+             Y A    GAY NG +I+V D      N +I YYP +K          KR+RIFG+   E
+Sbjct  121  FYEAYKGKGAYLNGRKIKVKDFNP--NNIVISYYPSKKIDLEKLRNKVKRVRIFGAFGLE  178
+
+Query  176  LCFFADGSFDCFLDIRPGKMLRIYDAAAGVFIAEKAGGKVTELDGESLGNKKFDMQ--ER  233
+            +C+ A G+ D   D+RP   +R  D A+   I ++AG  +T+ +G+ L   KFD+   +R
+Sbjct  179  MCYVAKGTLDAVFDVRPK--VRAVDIASSYIICKEAGALITDENGDEL---KFDLNATDR  233
+
+Query  234  LNIVAANEKLHPKLLELI  251
+            LNI+ AN K   ++L++I
+Sbjct  234  LNIIVANSK---EMLDII  248
+
+
+
+
+>RecName: Full=Bifunctional NADP phosphatase/NAD kinase; Includes: RecName: Full=NAD kinase; AltName: Full=ATP-dependent NAD kinase; AltName: Full=Poly(P)-dependent NAD kinase; Short=PPNK; Includes: RecName: Full=NADP phosphatase; Short=NADPase; Short=pNPPase [Methanococcus maripaludis S2]
+Sequence ID: Q6LX63.1 Length: 566
+Range 1: 2 to 276
+
+Score:132 bits(332), Expect:3e-34, 
+Method:Compositional matrix adjust., 
+Identities:90/280(32%), Positives:154/280(55%), Gaps:41/280(14%)
+
+Query  5    DALRISREIAGEVRKAIASMPLRERVKDV-GMGKDGTPTKAADRVAEDAALEILRKE-RV  62
+            D L ++  IA ++ K++  +   E+  +V  +G DGTPTK  D +AE+ A+  + K    
+Sbjct  2    DMLEMALNIAKDIEKSVKPLIGWEKSNEVVKIGADGTPTKRIDLIAENVAINSIEKVCSA  61
+
+Query  63   TVVTEESGV--LGEG--DVFVALDPLDGTFNATRGIPVYSVSLCFSYSD-----------  107
+             +++EE G   +G+   +  + LDP+DGT+N+ + IP YS ++     D           
+Sbjct  62   ILISEEIGFKRIGKNKPEYVIVLDPVDGTYNSLKDIPFYSAAVAIGRIDKFADNLEELIN  121
+
+Query  108  --KLKDAFFGYVYNLATGDEYYADS-SGAY--RNGERIEVSD--------------AEEL  148
+              K+KD   G V N+ATGD YYA+   GA+  R GE+  +S               A ++
+Sbjct  122  NLKMKDLEVGVVRNIATGDTYYAEKGKGAHFLRKGEKKSISISNSSNLKDSSIGLFAHDI  181
+
+Query  149  YCNAIIYYPDRKFPFKRMRIFGSAATELCFFADGSFDCFLDIRPGKMLRIYDAAAGVFIA  208
+              + + +  DR+  F+R+R+FGS A E+C+ A G+ D F+++   +  R+ D AAG  I 
+Sbjct  182  SIDTLKFIKDRR--FRRIRLFGSIALEMCYVAKGALDAFINVN--ETTRLCDIAAGYVII  237
+
+Query  209  EKAGGKVTELDGESLGNKKFDMQERLNIVAANEKLHPKLL  248
+            ++AGG VT+ +G+ + N   D+  +++++ +NE LH KL+
+Sbjct  238  KEAGGIVTDKNGQEV-NLDLDVNSKVSVICSNEMLHKKLV  276
+
+
+
+
+>RecName: Full=Fructose-1,6-bisphosphatase/inositol-1-monophosphatase; Short=FBPase/IMPase; AltName: Full=Inositol-1-phosphatase; Short=I-1-Pase [Thermococcus kodakarensis KOD1]
+Sequence ID: Q5JH93.1 Length: 256
+Range 1: 8 to 253
+
+Score:117 bits(294), Expect:8e-31, 
+Method:Compositional matrix adjust., 
+Identities:95/254(37%), Positives:131/254(51%), Gaps:18/254(7%)
+
+Query  9    ISREIAGEVRKAIASMPL---RERVKDVGMGKDGTPTKAADRVAEDAALEILRKERVTVV  65
+            I+   A E+ + I  MPL   ++  ++VG    G  TK  D+VAED  L+ L    V VV
+Sbjct  8    IALNTAKELEEKI--MPLFGTKKAGENVGTNVSGDVTKYVDKVAEDIILKRLVPLGVNVV  65
+
+Query  66   TEESGVLGEG-DVFVALDPLDGTFNATRGIPVYSVSLCFSYSDKLKDAFFGYVYNLATGD  124
+            +EE G +  G D  V +DPLDG++N + GIP+++ SL      K K   +G +Y     +
+Sbjct  66   SEEVGTVDSGSDYTVVVDPLDGSYNFSAGIPIFAFSLGIF---KGKKPVYGAIYEFLPEN  122
+
+Query  125  EYYAD-SSGAYRNGERIEVSDAEELYCNAIIYYPDRKFPF----KRMRIFGSAATELCFF  179
+             Y A    GAY NGERI V++ E        Y   R        KR+R+ G+ A EL + 
+Sbjct  123  FYEAKPGKGAYLNGERIRVNEPEPGKEALSFYTRGRCLGLVKKVKRVRVLGAIAVELAYV  182
+
+Query  180  ADGSFDCFLDIRPGKMLRIYDAAAGVFIAEKAGGKVTELDGESLGNKKFDMQERLNIVA-  238
+            A GS D   DIR    +R  D AAGV +  +AGG VT+  G      K    E+ NI+A 
+Sbjct  183  ARGSLDGVFDIR--NYVRPTDVAAGVLLVREAGGIVTDERGREF-EVKLSATEKTNIIAV  239
+
+Query  239  ANEKLHPKLLELIK  252
+            ANE+L   +LE +K
+Sbjct  240  ANERLLNTILEAMK  253
+
+
+
+
+>RecName: Full=Bifunctional NADP phosphatase/NAD kinase; Includes: RecName: Full=NAD kinase; AltName: Full=ATP-dependent NAD kinase; AltName: Full=Poly(P)-dependent NAD kinase; Short=PPNK; Includes: RecName: Full=NADP phosphatase; Short=NADPase; Short=pNPPase [Methanocaldococcus jannaschii DSM 2661]
+Sequence ID: Q58327.2 Length: 574
+Range 1: 5 to 292
+
+Score:120 bits(301), Expect:6e-30, 
+Method:Compositional matrix adjust., 
+Identities:90/294(31%), Positives:147/294(50%), Gaps:54/294(18%)
+
+Query  5    DALRISREIAGEVRKAIASMPLRERVKDV-GMGKDGTPTKAADRVAEDAALEILRK-ERV  62
+            +  +I+ ++  E+ K I  +   E+  +V  +G DGTPTK  D +AE+ A+ IL K    
+Sbjct  5    EGFKIAMKVIDEIDKKIKPLIGWEKADEVVKIGADGTPTKRIDVIAENMAINILEKFSGG  64
+
+Query  63   TVVTEESGVLGEGD----VFVALDPLDGTFNATRGIPVYSVSLCFSY---SDK-------  108
+             +++EE G+   GD    +F+ LDP+DGT+NA + IP+YS S+  +     DK       
+Sbjct  65   ILISEEIGLKVVGDELEYIFI-LDPIDGTYNALKSIPIYSTSIAVAKIKGEDKKLIRENI  123
+
+Query  109  ---------------LKDAFFGYVYNLATGDEYYA---DSSGAYRNGERIE-----VSDA  145
+                           + D + G V NLATGD YYA   + S   ++GE+I+     + D 
+Sbjct  124  NNIDWIKSFIANKYTINDLYVGIVKNLATGDLYYAIKGEGSFLEKDGEKIKIETKNIKDL  183
+
+Query  146  EELYCNAIIY---------YPDRKFPFKRMRIFGSAATELCFFADGSFDCFLDIRPGKML  196
+            +E      +Y           +RK   +R+R+FGS A E+C+   G+ D ++++      
+Sbjct  184  KEASVGLFVYGLSNDLLEFLKERK--VRRVRLFGSMALEMCYVVSGALDAYINVNENS--  239
+
+Query  197  RIYDAAAGVFIAEKAGGKVTELDGESLGNKKFDMQERLNIVAANEKLHPKLLEL  250
+            R+ D A    I  +    VT  +G+ L N K  + ER +++ +N+ LH KL+ L
+Sbjct  240  RLCDIAGAYVICREGNAIVTNKNGKPL-NMKLHLMERTSLIVSNKYLHKKLIAL  292
+
+
+
+
+>RecName: Full=Fructose-1,6-bisphosphatase; Short=FBPase [Pyrococcus furiosus DSM 3638]
+Sequence ID: Q8TZH9.1 Length: 254
+Range 1: 32 to 254
+
+Score:97.8 bits(242), Expect:2e-23, 
+Method:Compositional matrix adjust., 
+Identities:74/230(32%), Positives:121/230(52%), Gaps:15/230(6%)
+
+Query  31   KDVGMGKDGTPTKAADRVAEDAALEILRKERVTVVTEESGVL-GEGDVFVALDPLDGTFN  89
+            K V +   G  TK  D++AED  L  + +  V VV+EE GV+  E +  V +DPLDG++N
+Sbjct  32   KLVKISPSGDETKLVDKLAEDLILSRITELGVNVVSEEVGVIDNESEYTVIVDPLDGSYN  91
+
+Query  90   ATRGIPVYSVSLCFSYSDKLKDAFFGYVYNLATGDEYY--ADSSGAYRNGERIEVSDAEE  147
+               GIP +++SL     DK     +  +Y   T + ++      GA+ NG+RI+V    +
+Sbjct  92   FIAGIPFFALSLAVFKKDK---PIYAIIYEPMT-ERFFEGIPGEGAFLNGKRIKVRKTPD  147
+
+Query  148  LYCNAIIYYPDRKFPF----KRMRIFGSAATELCFFADGSFDCFLDIRPGKMLRIYDAAA  203
+               +   Y   +        KR R  G+ A EL + A G+ D  +D+R  K +R  D AA
+Sbjct  148  EKPSISFYSRGKGHEIVKHVKRTRTLGAIALELAYLAMGALDGVVDVR--KYVRPTDIAA  205
+
+Query  204  GVFIAEKAGGKVTELDGESLGNKKFDMQERLNIVAAN-EKLHPKLLELIK  252
+            G  IA++AG  + +  G+ + +  F+  +RL+++A N E+L   +L L++
+Sbjct  206  GTIIAKEAGALIKDSAGKDI-DISFNATDRLDVIAVNSEELLKTILSLLE  254
+
+
+
+
+>RecName: Full=Phosphatase IMPL1, chloroplastic; AltName: Full=Protein MYO-INOSITOL MONOPHOSPHATASE-LIKE 1; Flags: Precursor [Arabidopsis thaliana]
+Sequence ID: Q94F00.2 Length: 371
+Range 1: 124 to 344
+
+Score:88.2 bits(217), Expect:4e-19, 
+Method:Compositional matrix adjust., 
+Identities:77/231(33%), Positives:111/231(48%), Gaps:34/231(14%)
+
+Query  45   ADRVAEDAALEILRKE--RVTVVTEESGVLGEG--DVFVALDPLDGTFNATRGIPVYSVS  100
+             D+ +E A LE+++K      ++ EE G++G+   D    +DPLDGT N   G P ++VS
+Sbjct  124  TDKASEAAILEVVKKNFSDHLILGEEGGIIGDSSSDYLWCIDPLDGTTNFAHGYPSFAVS  183
+
+Query  101  LCFSYSDKLKDA----FFGYVYNLATGDEYYADSSGAYRNGERIEVS--DAEE--LYCNA  152
+            +   Y      A    F G      T         GA  NG++I VS  DA E  L    
+Sbjct  184  VGVLYRGNPAAASVVEFVGGPMCWNTRTFSATAGGGALCNGQKIHVSKTDAVERALLITG  243
+
+Query  153  IIYYPDRKFP-----FKR-------MRIFGSAATELCFFADGSFDCFLDIRPGKMLRIYD  200
+              Y  D  +      FK        +R  G+AA ++C  A G  + + + R    L+ +D
+Sbjct  244  FGYEHDDAWSTNMELFKEFTDVSRGVRRLGAAAVDMCHVALGIAESYWEYR----LKPWD  299
+
+Query  201  AAAGVFIAEKAGGKVTELDGESLGNKKFDMQERLNIVAANEKLHPKLLELI  251
+             AAGV I E+AGG VT +DG      KF + +R +++ +N  LHPKLLE I
+Sbjct  300  MAAGVLIVEEAGGAVTRMDG-----GKFSVFDR-SVLVSNGVLHPKLLERI  344
+
+
+
+
+>RecName: Full=Fructose-1,6-bisphosphatase/inositol-1-monophosphatase; Short=FBPase/IMPase; AltName: Full=Inositol-1-phosphatase; Short=I-1-Pase [Thermotoga maritima MSB8]
+Sequence ID: O33832.1 Length: 256
+Range 1: 62 to 222
+
+Score:84.3 bits(207), Expect:3e-18, 
+Method:Compositional matrix adjust., 
+Identities:57/168(34%), Positives:86/168(51%), Gaps:18/168(10%)
+
+Query  65   VTEESGVLGEGDVFVALDPLDGTFNATRGIPVYSVSLCFSYSDKLKDAFFGYVYNLATGD  124
+            +  E G+  +GD    +DP+DGT N   G+P +S+SL +  + ++K    G V+  A  +
+Sbjct  62   IMAEEGIFEKGDRLWIIDPIDGTINFVHGLPNFSISLAYVENGEVK---LGVVHAPALNE  118
+
+Query  125  EYYAD-SSGAYRNGERIEVSDAEELY--CNAIIYYPDRKFPF--------KRMRIFGSAA  173
+              YA+  SGA+ NGERI VS+   L     +   Y D    F        +R+RI GSAA
+Sbjct  119  TLYAEEGSGAFFNGERIRVSENASLEECVGSTGSYVDFTGKFIERMEKRTRRIRILGSAA  178
+
+Query  174  TELCFFADGSFDCFLDIRPGKMLRIYDAAAGVFIAEKAGGKVTELDGE  221
+                +   G  D F+  R    +  +D AAG+ I ++AGG VT+  G+
+Sbjct  179  LNAAYVGAGRVDFFVTWR----INPWDIAAGLIIVKEAGGMVTDFSGK  222
+
+
+
+
+>RecName: Full=Fructose-1,6-bisphosphatase/inositol-1-monophosphatase; Short=FBPase/IMPase; AltName: Full=Inositol-1-phosphatase; Short=I-1-Pase [Aquifex aeolicus VF5]
+Sequence ID: O67791.1 Length: 264
+Range 1: 46 to 257
+
+Score:84.3 bits(207), Expect:3e-18, 
+Method:Compositional matrix adjust., 
+Identities:74/229(32%), Positives:111/229(48%), Gaps:38/229(16%)
+
+Query  45   ADRVAEDAALEILRK--ERVTVVTEESGVLGEGDVF-VALDPLDGTFNATRGIPVYSVSL  101
+             D+ +E+   E++ K      VV EE G  G G  +   +DPLDGT N   G P+++VS+
+Sbjct  46   VDKTSEERIKEVILKFFPDHEVVGEEMGAEGSGSEYRWFIDPLDGTKNYINGFPIFAVSV  105
+
+Query  102  CFSYSDKLKDAFFGYVYNLATGDEYY--ADSSGAYRNGERIEVSDAEELYCNAIIY-YPD  158
+                  K ++   G VY L   D+ Y  A   GAY NG+RI+V D E L    ++Y +P 
+Sbjct  106  GLV---KGEEPIVGAVY-LPYFDKLYWGAKGLGAYVNGKRIKVKDNESLKHAGVVYGFPS  161
+
+Query  159  RK---------------FPFKRMRIFGSAATELCFFADGSFDCFLDIRPGKMLRIYDAAA  203
+            R                +    MR  G+AA +LC  A+G FD  ++      ++ +D  A
+Sbjct  162  RSRRDISIYLNIFKDVFYEVGSMRRPGAAAVDLCMVAEGIFDGMMEFE----MKPWDITA  217
+
+Query  204  GVFIAEKAGGKVTELDGESLGNKKFDMQERLNIVAANEKLHPKLLELIK  252
+            G+ I ++AGG V  L GE  G          +I+A N+ LH  +L++ K
+Sbjct  218  GLVILKEAGG-VYTLVGEPFGVS--------DIIAGNKALHDFILQVAK  257
+
+
+
+
+>RecName: Full=Putative Nus factor SuhB; AltName: Full=Inositol-1-monophosphatase; Short=I-1-Pase; Short=IMPase; Short=Inositol-1-phosphatase [Neisseria meningitidis MC58]
+Sequence ID: Q9JZ07.1 Length: 261
+Range 1: 44 to 257
+
+Score:79.7 bits(195), Expect:2e-16, 
+Method:Compositional matrix adjust., 
+Identities:73/227(32%), Positives:107/227(47%), Gaps:34/227(14%)
+
+Query  46   DRVAEDAALEILRKE--RVTVVTEESGVLGEG--DVFVALDPLDGTFNATRGIPVYSVSL  101
+            DR +E   +E L++      +  EESG  G+   +    +DPLDGT N   G P Y++S+
+Sbjct  44   DRNSEIILVEALKEAYPHHKITCEESGSHGKAAAEYEWIIDPLDGTTNFLHGHPQYAISM  103
+
+Query  102  CFSYSDKLKDAFFGYVYNLATGDEYYAD-SSGAYRNGERIEVSDAEELY-CNAIIYYP--  157
+               +   L++A    VY     D Y A    GA  N  RI VS+  EL  C     +P  
+Sbjct  104  ALLHKGVLQEAL---VYAPERNDVYMASRGKGALLNDRRIRVSNRIELNRCLIGTGFPVV  160
+
+Query  158  DRKFPFKRMRIF-------------GSAATELCFFADGSFDCFLDIRPGKMLRIYDAAAG  204
+            D+    K + I              G+A+ +LC  A G FD F +      L+ +D AAG
+Sbjct  161  DQSMMDKYLAILKDFLAKTAGGRREGAASLDLCAVATGRFDGFFEFN----LKPWDIAAG  216
+
+Query  205  VFIAEKAGGKVTELDGESLGNKKFDMQERLNIVAANEKLHPKLLELI  251
+              I ++AGG VT++ GE          E  +IVAAN K+  ++L++I
+Sbjct  217  ALIVQEAGGIVTDMSGED------GWLESGDIVAANPKVLAQMLKII  257
+
+
+
+
+>RecName: Full=Putative Nus factor SuhB; AltName: Full=Inositol-1-monophosphatase; Short=I-1-Pase; Short=IMPase; Short=Inositol-1-phosphatase [Neisseria meningitidis Z2491]
+Sequence ID: Q9JU03.1 Length: 261
+Range 1: 44 to 257
+
+Score:79.3 bits(194), Expect:2e-16, 
+Method:Compositional matrix adjust., 
+Identities:73/227(32%), Positives:107/227(47%), Gaps:34/227(14%)
+
+Query  46   DRVAEDAALEILRKE--RVTVVTEESGVLGEG--DVFVALDPLDGTFNATRGIPVYSVSL  101
+            DR +E   +E L++      +  EESG  G+   +    +DPLDGT N   G P Y++S+
+Sbjct  44   DRNSEIILVEALKEAYPHHKITCEESGSHGKAAAEYEWIIDPLDGTTNFLHGHPQYAISM  103
+
+Query  102  CFSYSDKLKDAFFGYVYNLATGDEYYAD-SSGAYRNGERIEVSDAEELY-CNAIIYYP--  157
+               +   L++A    VY     D Y A    GA  N  RI VS+  EL  C     +P  
+Sbjct  104  ALLHKGVLQEAL---VYAPERNDVYMASRGKGALLNDRRIRVSNRIELNRCLIGTGFPVV  160
+
+Query  158  DRKFPFKRMRIF-------------GSAATELCFFADGSFDCFLDIRPGKMLRIYDAAAG  204
+            D+    K + I              G+A+ +LC  A G FD F +      L+ +D AAG
+Sbjct  161  DQSMMDKYLVILKDFLAKTAGGRREGAASLDLCAVATGRFDGFFEFN----LKPWDIAAG  216
+
+Query  205  VFIAEKAGGKVTELDGESLGNKKFDMQERLNIVAANEKLHPKLLELI  251
+              I ++AGG VT++ GE          E  +IVAAN K+  ++L++I
+Sbjct  217  ALIVQEAGGIVTDMSGED------GWLESGDIVAANPKVLAQMLKII  257
+
+
+
+
+>RecName: Full=Inositol-1-monophosphatase; Short=I-1-Pase; Short=IMPase; Short=Inositol-1-phosphatase [Mesorhizobium japonicum MAFF 303099]
+Sequence ID: Q98F59.1 Length: 266
+Range 1: 39 to 260
+
+Score:76.3 bits(186), Expect:3e-15, 
+Method:Compositional matrix adjust., 
+Identities:70/236(30%), Positives:105/236(44%), Gaps:36/236(15%)
+
+Query  39   GTPTKAADRVAEDAALEILRKERVT---VVTEESGVLGEGDVF-VALDPLDGTFNATRGI  94
+            G     ADR AED     L K R     ++ E   V GE       +DPLDGT N   GI
+Sbjct  39   GDYVSQADRKAEDIIFAELSKARPGYGFLMEERGAVEGEDSQHRWIVDPLDGTTNFLHGI  98
+
+Query  95   PVYSVSLCFSYSDKLKDAFFGYVYNLATGDEYYAD--SSGAYRNGERIEVSDAEEL----  148
+            P+++VS+      ++     G +YN A  DE Y      GA+ N  R+ V+   +L    
+Sbjct  99   PLFAVSIALERQGQI---VAGVIYNPAM-DELYTTERGGGAFMNDRRLRVAGRIKLVDTV  154
+
+Query  149  ------------YCNAIIYYPDRKFPFKRMRIFGSAATELCFFADGSFDCFLDIRPGKML  196
+                        + N ++   +       +R  GSAA +L + A G  D F +      L
+Sbjct  155  IGCGMPHLGRGHHGNFLVELRNVMAEVSGVRRLGSAALDLAYVAAGRMDGFWETG----L  210
+
+Query  197  RIYDAAAGVFIAEKAGGKVTELDGESLGNKKFDMQERLNIVAANEKLHPKLLELIK  252
+              +D AAG+ +  +AGG V+++DG        DM +  ++VA NE +   LL+ +K
+Sbjct  211  SAWDIAAGLLLIREAGGFVSDMDGGQ------DMLDNGSVVAGNEVIQRALLKAVK  260
+
+
+
+
+>RecName: Full=Nus factor SuhB; AltName: Full=Inositol-1-monophosphatase; Short=I-1-Pase; Short=IMPase; Short=Inositol-1-phosphatase [Pseudomonas aeruginosa PAO1]
+Sequence ID: Q9HXI4.1 Length: 271
+Range 1: 44 to 262
+
+Score:75.9 bits(185), Expect:5e-15, 
+Method:Compositional matrix adjust., 
+Identities:70/236(30%), Positives:105/236(44%), Gaps:46/236(19%)
+
+Query  46   DRVAEDAALEILRKERVT--VVTEESGVL---GEG-DVFVALDPLDGTFNATRGIPVYSV  99
+            DR AE   +  LRK   T  ++ EE G +   GEG D    +DPLDGT N   G+P ++V
+Sbjct  44   DRAAEQTIVAALRKAYPTHAIMGEEGGFIEGSGEGADYLWVIDPLDGTTNFIHGVPHFAV  103
+
+Query  100  SLCFSYSDKLKDAFFGYVYNLATGDEYYADSS-GAYRNGERIEVSDAEELYCNAIIYYPD  158
+            S+   Y  +L+ A    V +    +E+ A    GA  NG R+ VS  + L    +     
+Sbjct  104  SIACKYKGRLEHAV---VLDPVRQEEFTASRGRGAALNGRRLRVSGRKSLEGALL----G  156
+
+Query  159  RKFPFKRMRI----------------------FGSAATELCFFADGSFDCFLDIRPGKML  196
+              FPF+  +I                       G+A+ +L + A G +D F +      L
+Sbjct  157  TGFPFRDNQIDNLDNYLNMFRSLVGQTAGIRRAGAASLDLAYVAAGRYDAFWEFG----L  212
+
+Query  197  RIYDAAAGVFIAEKAGGKVTELDGESLGNKKFDMQERLNIVAANEKLHPKLLELIK  252
+              +D AAG  + ++AGG V++  G        +  E+ +IVA N K    LL  I+
+Sbjct  213  SEWDMAAGALLVQEAGGLVSDFTGSH------EFLEKGHIVAGNTKCFKALLTTIQ  262
+
+
+
+
+>RecName: Full=Inositol-1-monophosphatase; Short=I-1-Pase; Short=IMPase; Short=Inositol-1-phosphatase [Caulobacter vibrioides CB15]
+Sequence ID: Q9A3D5.1 Length: 256
+Range 1: 36 to 254
+
+Score:74.7 bits(182), Expect:9e-15, 
+Method:Compositional matrix adjust., 
+Identities:65/231(28%), Positives:110/231(47%), Gaps:35/231(15%)
+
+Query  45   ADRVAEDAALEILRKER--VTVVTEESGVLGEGD---VFVALDPLDGTFNATRGIPVYSV  99
+            AD  AE    E+L K R     + EE G++   D    ++ +DPLDGT N    IP ++V
+Sbjct  36   ADIKAEQTLFELLTKARPGYGFLGEERGMVEGTDKTHTWI-VDPLDGTTNFMHAIPHFAV  94
+
+Query  100  SLCFSYSDKLKDAFFGYVYNLATGDEYYADSS-GAYRNGE-RIEVSDA----EELYCNAI  153
+            ++      +      G  YN  T D ++ +   GA+   E R+ V+      E +    +
+Sbjct  95   NIALQREGE--GIVAGVTYNPITNDLFWVEKGKGAFLGAEKRLRVAARRHLDEAILATGV  152
+
+Query  154  IYY--PDRKFPFKRM----------RIFGSAATELCFFADGSFDCFLDIRPGKMLRIYDA  201
+             +   P      K +          R FG+A+ +L + A G FD F +    + L  +D 
+Sbjct  153  PFAGKPGHGQFLKELHQVSQKVAGVRRFGAASLDLAWVAAGRFDAFWE----RNLNSWDV  208
+
+Query  202  AAGVFIAEKAGGKVTELDGESLGNKKFDMQERLNIVAANEKLHPKLLELIK  252
+            AAGV + +++GGK+T +D         D+ +  +I+A+N+ LHP++LE ++
+Sbjct  209  AAGVLMIQESGGKITTID-----ESDHDVVQGKSILASNQDLHPQILERLR  254
+
+
+
+
+>RecName: Full=Inositol monophosphatase 1; Short=IMP 1; Short=IMPase 1; AltName: Full=D-galactose 1-phosphate phosphatase; AltName: Full=Inositol-1(or 4)-monophosphatase 1; AltName: Full=Lithium-sensitive myo-inositol monophosphatase A1 [Pongo abelii]
+Sequence ID: Q5R4X0.1 Length: 277
+Range 1: 72 to 257
+
+Score:69.7 bits(169), Expect:9e-13, 
+Method:Compositional matrix adjust., 
+Identities:51/200(26%), Positives:93/200(46%), Gaps:33/200(16%)
+
+Query  63   TVVTEESGVLGEGDVFVALDPLDGTFNATRGIPVYSVSLCFSYSDKLKDAFFGYVYNLAT  122
+            +V   E  +L +   ++ +DP+DGT N     P  +VS+ F+ + K++   FG VY+   
+Sbjct  72   SVAAGEKSILTDNPTWI-IDPIDGTTNFVHRFPFVAVSIGFAVNKKIE---FGVVYSCVE  127
+
+Query  123  GDEYYA-DSSGAYRNGERIEVSDAEELYCNAIIY------YPDRK------------FPF  163
+            G  Y A    GA+ NG++++VS  E++  + ++        P+               P 
+Sbjct  128  GKMYTARKGKGAFCNGQKLQVSQQEDITKSLLVTELGSSRTPETVRIVLSNMEKLFCIPV  187
+
+Query  164  KRMRIFGSAATELCFFADGSFDCFLDIRPGKMLRIYDAAAGVFIAEKAGGKVTELDGESL  223
+              +R  G+AA  +C  A G  D + ++     +  +D A    I  +AGG + ++ G   
+Sbjct  188  HGIRSVGTAAVNMCLVATGGADAYYEMG----IHCWDVAGAGIIVTEAGGVLMDVTG---  240
+
+Query  224  GNKKFDMQERLNIVAANEKL  243
+                FD+  R  ++AAN ++
+Sbjct  241  --GPFDLMSR-RVIAANNRI  257
+
+
+
+
+>RecName: Full=Inositol monophosphatase 1; Short=IMP 1; Short=IMPase 1; AltName: Full=D-galactose 1-phosphate phosphatase; AltName: Full=Inositol-1(or 4)-monophosphatase 1; AltName: Full=Lithium-sensitive myo-inositol monophosphatase A1 [Homo sapiens]
+Sequence ID: P29218.1 Length: 277
+Range 1: 72 to 257
+
+Score:69.7 bits(169), Expect:9e-13, 
+Method:Compositional matrix adjust., 
+Identities:51/200(26%), Positives:93/200(46%), Gaps:33/200(16%)
+
+Query  63   TVVTEESGVLGEGDVFVALDPLDGTFNATRGIPVYSVSLCFSYSDKLKDAFFGYVYNLAT  122
+            +V   E  +L +   ++ +DP+DGT N     P  +VS+ F+ + K++   FG VY+   
+Sbjct  72   SVAAGEKSILTDNPTWI-IDPIDGTTNFVHRFPFVAVSIGFAVNKKIE---FGVVYSCVE  127
+
+Query  123  GDEYYA-DSSGAYRNGERIEVSDAEELYCNAIIY------YPDRK------------FPF  163
+            G  Y A    GA+ NG++++VS  E++  + ++        P+               P 
+Sbjct  128  GKMYTARKGKGAFCNGQKLQVSQQEDITKSLLVTELGSSRTPETVRMVLSNMEKLFCIPV  187
+
+Query  164  KRMRIFGSAATELCFFADGSFDCFLDIRPGKMLRIYDAAAGVFIAEKAGGKVTELDGESL  223
+              +R  G+AA  +C  A G  D + ++     +  +D A    I  +AGG + ++ G   
+Sbjct  188  HGIRSVGTAAVNMCLVATGGADAYYEMG----IHCWDVAGAGIIVTEAGGVLMDVTG---  240
+
+Query  224  GNKKFDMQERLNIVAANEKL  243
+                FD+  R  ++AAN ++
+Sbjct  241  --GPFDLMSR-RVIAANNRI  257
+
+
+
+
+>RecName: Full=Inositol monophosphatase 1; Short=IMP 1; Short=IMPase 1; AltName: Full=D-galactose 1-phosphate phosphatase; AltName: Full=Inositol-1(or 4)-monophosphatase 1; AltName: Full=Lithium-sensitive myo-inositol monophosphatase A1 [Bos taurus]
+Sequence ID: P20456.1 Length: 277
+Range 1: 72 to 267
+
+Score:67.4 bits(163), Expect:5e-12, 
+Method:Compositional matrix adjust., 
+Identities:51/209(24%), Positives:96/209(45%), Gaps:32/209(15%)
+
+Query  63   TVVTEESGVLGEGDVFVALDPLDGTFNATRGIPVYSVSLCFSYSDKLKDAFFGYVYNLAT  122
+            +V   E  +L +   ++ +DP+DGT N   G P  +VS+ F  + K++   FG VY+   
+Sbjct  72   SVAAGEKSILTDNPTWI-IDPIDGTTNFVHGFPFVAVSIGFVVNKKME---FGIVYSCLE  127
+
+Query  123  GDEYYA-DSSGAYRNGERIEVSDAEELYCNAIIY------YPDRK------------FPF  163
+               Y      GA+ NG++++VS  E++  + ++        P+               P 
+Sbjct  128  DKMYTGRKGKGAFCNGQKLQVSHQEDITKSLLVTELGSSRTPETVRIILSNIERLLCLPI  187
+
+Query  164  KRMRIFGSAATELCFFADGSFDCFLDIRPGKMLRIYDAAAGVFIAEKAGGKVTELDGESL  223
+              +R  G+AA  +C  A G+ D + ++     +  +D A    I  +AGG + ++ G   
+Sbjct  188  HGIRGVGTAALNMCLVAAGAADAYYEMG----IHCWDVAGAGIIVTEAGGVLLDVTG---  240
+
+Query  224  GNKKFDMQERLNIVAANEKLHPKLLELIK  252
+                FD+  R  I ++N+ L  ++ + I+
+Sbjct  241  --GPFDLMSRRVIASSNKTLAERIAKEIQ  267
+
+
+
+
+>RecName: Full=Inositol-1-monophosphatase; Short=I-1-Pase; Short=IMPase; Short=Inositol-1-phosphatase [Synechocystis sp. PCC 6803 substr. Kazusa]
+Sequence ID: P74158.1 Length: 287
+Range 1: 46 to 265
+
+Score:66.6 bits(161), Expect:1e-11, 
+Method:Compositional matrix adjust., 
+Identities:72/233(31%), Positives:104/233(44%), Gaps:34/233(14%)
+
+Query  36   GKDGTPTKAADRVAEDAALEILRKE--RVTVVTEESGVLGEGD--VFVALDPLDGTFNAT  91
+            G+ G     ADR AE   LEI+++      ++ EESG LG+ D     A+DPLDGT N  
+Sbjct  46   GRAGDLVTEADRQAEAIILEIIKRRCPDHAILAEESGQLGQVDNPFCWAIDPLDGTTNFA  105
+
+Query  92   RGIPVYSVSLCFSYSDKLKDAFFGYVYNLATGDEYYADSS-GAYRNGERIEVSDAEELYC  150
+               PV  VS+     D       G VYN    + + A +S GA  N   I+VS    L  
+Sbjct  106  HSYPVSCVSIGLLIQDI---PTVGVVYNPFRQELFRAATSLGATLNRRPIQVSTTASLDK  162
+
+Query  151  NAIIY--------YPDRKFP--------FKRMRIFGSAATELCFFADGSFDCFLDIRPGK  194
+            + ++           D  +P         + +R  GSAA +L   A G  D + +    +
+Sbjct  163  SLLVTGFAYDRVKTLDNNYPEFCYLTHLTQGVRRSGSAAIDLIDVACGRLDGYWE----R  218
+
+Query  195  MLRIYDAAAGVFIAEKAGGKVTELDGESLGNKKFDMQERLNIVAANEKLHPKL  247
+             +  +D AAG+ I  +AGG V+  D   L     D+     I+A N K+H +L
+Sbjct  219  GINPWDMAAGIVIVREAGGIVSAYDCSPL-----DLSTG-RILATNGKIHQEL  265
+
+
+
+
+>RecName: Full=Inositol monophosphatase 1; Short=IMP 1; Short=IMPase 1; AltName: Full=D-galactose 1-phosphate phosphatase; AltName: Full=Inositol-1(or 4)-monophosphatase 1; AltName: Full=Lithium-sensitive myo-inositol monophosphatase A1 [Mus musculus]
+Sequence ID: O55023.1 Length: 277
+Range 1: 68 to 254
+
+Score:63.9 bits(154), Expect:7e-11, 
+Method:Compositional matrix adjust., 
+Identities:54/200(27%), Positives:88/200(44%), Gaps:37/200(18%)
+
+Query  65   VTEESGVLGEGDVFVA-----LDPLDGTFNATRGIPVYSVSLCFSYSDKLKDAFFGYVYN  119
+            + EES   GE  VF       +DP+DGT N     P  +VS+ F  + +++   FG VY+
+Sbjct  68   IGEESVAAGEKTVFTESPTWFIDPIDGTTNFVHRFPFVAVSIGFLVNKEME---FGIVYS  124
+
+Query  120  LATGDEYYA-DSSGAYRNGERIEVSDAEELYCNAIIYY--PDRK----------------  160
+                  Y      GA+ NG++++VS  E++  + ++      RK                
+Sbjct  125  CVEDKMYTGRKGKGAFCNGQKLQVSQQEDITKSLLVTELGSSRKPETLRIVLSNMEKLCS  184
+
+Query  161  FPFKRMRIFGSAATELCFFADGSFDCFLDIRPGKMLRIYDAAAGVFIAEKAGGKVTELDG  220
+             P   +R  G+AA  +C  A G  D + ++     +  +D A    I  +AGG + ++ G
+Sbjct  185  IPIHGIRSVGTAAVNMCLVATGGADAYYEMG----IHCWDMAGAGIIVTEAGGVLMDVTG  240
+
+Query  221  ESLGNKKFDMQERLNIVAAN  240
+                   FD+  R  I+AAN
+Sbjct  241  -----GPFDLMSR-RIIAAN  254
+
+
+
+
+>RecName: Full=Histidinol-phosphatase; Short=HolPase; AltName: Full=Histidinol-phosphate phosphatase [Streptomyces coelicolor A3(2)]
+Sequence ID: Q9K4B1.1 Length: 266
+Range 1: 38 to 259
+
+Score:62.0 bits(149), Expect:3e-10, 
+Method:Compositional matrix adjust., 
+Identities:65/234(28%), Positives:96/234(41%), Gaps:35/234(14%)
+
+Query  38   DGTPTKAADRVAEDAALEILRKERV--TVVTEESGVLGEGDVFVALDPLDGTFNATRGIP  95
+            D TP   AD+ AE+     L + R   +V  EE GV G G     +DP+DGT N  RG+P
+Sbjct  38   DMTPVSEADKAAEELIRGHLSRARPRDSVHGEEFGVAGTGPRRWVIDPIDGTKNYVRGVP  97
+
+Query  96   VYSVSLCFSYSDKLK-DAFFGYVYNLATGDEYYA-DSSGAY-----RNGERIEVSDAEEL  148
+            V++  +    + +       G V   A G  ++A +  GA+      +  R+ VS    L
+Sbjct  98   VWATLIALMEAKEGGYQPVVGLVSAPALGRRWWAVEDHGAFTGRSLTSAHRLHVSQVSTL  157
+
+Query  149  YCNAIIY--------------YPDRKFPFKRMRIFGSAATELCFFADGSFDCFLDIRPGK  194
+               +  Y              + D      R R +G     +   A+GS D   +     
+Sbjct  158  SDASFAYSSLSGWEEQGRLDGFLDLTREVWRTRAYGDFWPYM-MVAEGSVDLCAEPE---  213
+
+Query  195  MLRIYDAAAGVFIAEKAGGKVTELDGESLGNKKFDMQERLNIVAANEKLHPKLL  248
+             L ++D AA   I  +AGG  T LDG    +         N  A+N +LH +LL
+Sbjct  214  -LSLWDMAANAIIVTEAGGTFTGLDGRPGPHSG-------NAAASNGRLHDELL  259
+
+
+
+
+>RecName: Full=Nus factor SuhB; AltName: Full=Inositol-1-monophosphatase; Short=I-1-Pase; Short=IMPase; Short=Inositol-1-phosphatase [Xylella fastidiosa Temecula1]
+Sequence ID: Q87BG1.1 Length: 275
+Range 1: 65 to 262
+
+Score:61.2 bits(147), Expect:6e-10, 
+Method:Compositional matrix adjust., 
+Identities:51/205(25%), Positives:91/205(44%), Gaps:24/205(11%)
+
+Query  64   VVTEESGVLGEGDVFVALDPLDGTFNATRGIPVYSVSLCFSYSDKLKDAFFGYVYNLATG  123
+            ++ EE G+ G   +   +DPLDGT N  RG P Y VS+    + +  DA    +++    
+Sbjct  65   ILGEEGGLQGNHRIMWVIDPLDGTSNYLRGFPHYCVSIALVENGEPTDAV---IFDPLRN  121
+
+Query  124  DEYYAD-SSGAYRNGERIEVSDAEEL---YCNAIIYYPDRKFPFKRMRIF----------  169
+            + + A   +GA  N  +I V++ ++L     N      +R     +++            
+Sbjct  122  ELFTASRGAGAVLNERKIRVANRKDLNGTMLNTGFSPRERSRAHAQLKCVDALLMQAEDI  181
+
+Query  170  ---GSAATELCFFADGSFDCFLDIRPGKMLRIYDAAAGVFIAEKAGGKVTELDGESLGNK  226
+               GSAA +L + A G  D + +      ++++D AAG+ +  +AGG V +  G      
+Sbjct  182  RRSGSAALDLAYVACGRADAYFE----AGIKVWDVAAGMLLVREAGGYVCDFKGADAPRM  237
+
+Query  227  KFDMQERLNIVAANEKLHPKLLELI  251
+                 E   ++A N K+   L ++I
+Sbjct  238  DDKGPESCQLIAGNIKVAHALQQVI  262
+
+
+
+
+>RecName: Full=Nus factor SuhB; AltName: Full=Inositol-1-monophosphatase; Short=I-1-Pase; Short=IMPase; Short=Inositol-1-phosphatase [Xylella fastidiosa 9a5c]
+Sequence ID: Q9PAM0.1 Length: 275
+Range 1: 45 to 262
+
+Score:61.2 bits(147), Expect:7e-10, 
+Method:Compositional matrix adjust., 
+Identities:55/225(24%), Positives:100/225(44%), Gaps:26/225(11%)
+
+Query  46   DRVAEDAALEILRK--ERVTVVTEESGVLGEGDVFVALDPLDGTFNATRGIPVYSVSLCF  103
+            D +AE   ++ L++      ++ EE G+ G   +   +DPLDGT N  RG P Y +S+  
+Sbjct  45   DEMAEKVIVKELKRAYPEYGILGEEGGLQGNHRIMWVIDPLDGTSNYLRGFPHYCISIAL  104
+
+Query  104  SYSDKLKDAFFGYVYNLATGDEYYAD-SSGAYRNGERIEVSDAEEL---YCNAIIYYPDR  159
+              + +  DA    +++    + + A   +GA  N  +I V++ ++L     N      +R
+Sbjct  105  VENGEPTDAV---IFDPLRNELFTASRGAGAILNERKIRVANRKDLNGTMLNTGFSPRER  161
+
+Query  160  KFPFKRMRIF-------------GSAATELCFFADGSFDCFLDIRPGKMLRIYDAAAGVF  206
+                 +++               GSAA +L + A G  D + +      ++++D AAG+ 
+Sbjct  162  SRAHAQLKCVDALLMQAEDIRRSGSAALDLAYVACGRADAYFE----AGIKVWDVAAGML  217
+
+Query  207  IAEKAGGKVTELDGESLGNKKFDMQERLNIVAANEKLHPKLLELI  251
+            +  +AGG V +  G           E   +VA N K+   L ++I
+Sbjct  218  LVREAGGYVCDFKGADAPRMDDKGPESCQLVAGNIKVAHALQQVI  262
+
+
+
+
+>RecName: Full=Histidinol-phosphatase; Short=HolPase; AltName: Full=Histidinol-phosphate phosphatase [Chlorobaculum parvum NCIB 8327]
+Sequence ID: P56160.2 Length: 259
+Range 1: 34 to 251
+
+Score:58.9 bits(141), Expect:5e-09, 
+Method:Compositional matrix adjust., 
+Identities:60/234(26%), Positives:105/234(44%), Gaps:47/234(20%)
+
+Query  37   KDGTPTKAADRVAEDAALEILRKERVTVVTEESGVLGE---------GDVFVALDPLDGT  87
+            +D TP   ADR AE+     L ++ ++    + G+ GE         G  ++ +DP+DGT
+Sbjct  34   RDDTPVTEADRNAEE-----LIRQGISAKFPDDGLFGEEFDEHPSGNGRRWI-IDPIDGT  87
+
+Query  88   FNATRGIPVYSVSLCFSYSDKLKDAFFGYVYNLATGDEYYAD-SSGAYRNGERIEVSDAE  146
+             +   G+P+Y V +       ++    G +   A G+ Y A+  SGA+ NG  ++VS   
+Sbjct  88   RSFIHGVPLYGVMIALEVEGAMQ---LGVINFPALGELYQAERGSGAFMNGSPVQVSAIA  144
+
+Query  147  ELYCNAIIYY-------PDRKFPFKRMRI-------FGSAATELCFFADGSFDCFLDIRP  192
+            E   + +++        P    P  ++RI       +G     +   A G  +  +D   
+Sbjct  145  ENSASTVVFTEKEYLLDPPSNHPVDQLRIDAGLVRGWGDCYGHM-LVASGRAEVAVD---  200
+
+Query  193  GKMLRIYDAAAGVFIAEKAG-------GKVTELDGESLGNKKFDMQERLNIVAA  239
+             K++  +D AA + I E+AG       G+ + +DGE L +    M    N++AA
+Sbjct  201  -KIMSPWDCAAVIPIVEEAGGCCFDYRGRQSIIDGEGLVSANNAMGR--NLIAA  251
+
+
+
+
+>RecName: Full=Inositol monophosphatase 2; Short=IMP 2; Short=IMPase 2; AltName: Full=Inositol-1(or 4)-monophosphatase 2; AltName: Full=Myo-inositol monophosphatase A2 [Rattus norvegicus]
+Sequence ID: Q8CIN7.1 Length: 290
+Range 1: 48 to 256
+
+Score:58.2 bits(139), Expect:9e-09, 
+Method:Compositional matrix adjust., 
+Identities:61/218(28%), Positives:92/218(42%), Gaps:43/218(19%)
+
+Query  40   TPTKAADRVAE------DAALEILRKERVT--VVTEESGVLGEGDVFVA-----LDPLDG  86
+            T T AAD V E      D  +  LRK   +   + EE+   G   V        +DP+DG
+Sbjct  48   TKTSAADLVTETDHRVEDLIVSELRKRFPSHRFIAEEATASGAKCVLTHSPTWIIDPIDG  107
+
+Query  87   TFNATRGIPVYSVSLCFSYSDKLKDAFFGYVYNLATGDEYYAD--SSGAYRNGERIEVSD  144
+            T N     P  +VS+ F+   +L+   FG +++  T +  Y      GA+ NG+R++VS 
+Sbjct  108  TCNFVHRFPTVAVSIGFAVHQELE---FGVIHH-CTEERLYTGRRGQGAFCNGQRLQVSR  163
+
+Query  145  AEELYCNAIIYY-------PDRKFPF------------KRMRIFGSAATELCFFADGSFD  185
+              +L   A++         PD    F              +R+ GS+   LC+ A G+ D
+Sbjct  164  ETDL-AKALVLTEIGPKRDPDTLKVFLSNMERLLHAKAHGVRVIGSSTLALCYLASGAAD  222
+
+Query  186  CFLDIRPGKMLRIYDAAAGVFIAEKAGGKVTELDGESL  223
+             +        L  +D AA   I  +AGG V +  G  L
+Sbjct  223  AYYQFG----LHCWDLAAATVIIREAGGIVIDTSGGPL  256
+
+
+
+
+>RecName: Full=Inositol monophosphatase 2; Short=IMP 2; Short=IMPase 2; AltName: Full=Inositol-1(or 4)-monophosphatase 2; AltName: Full=Myo-inositol monophosphatase A2 [Mus musculus]
+Sequence ID: Q91UZ5.1 Length: 290
+Range 1: 48 to 256
+
+Score:58.2 bits(139), Expect:9e-09, 
+Method:Compositional matrix adjust., 
+Identities:61/218(28%), Positives:92/218(42%), Gaps:43/218(19%)
+
+Query  40   TPTKAADRVAE------DAALEILRKERVT--VVTEESGVLGEGDVFVA-----LDPLDG  86
+            T T AAD V E      D  +  LRK   +   + EE+   G   V        +DP+DG
+Sbjct  48   TKTSAADLVTETDHRVEDLIVSELRKRFPSHRFIAEEATASGAKCVLTHSPTWIIDPIDG  107
+
+Query  87   TFNATRGIPVYSVSLCFSYSDKLKDAFFGYVYNLATGDEYYAD--SSGAYRNGERIEVSD  144
+            T N     P  +VS+ F+   +L+   FG +++  T +  Y      GA+ NG+R++VS 
+Sbjct  108  TCNFVHRFPTVAVSIGFAVHQELE---FGVIHH-CTEERLYTGRRGQGAFCNGQRLQVSR  163
+
+Query  145  AEELYCNAIIYY-------PDRKFPF------------KRMRIFGSAATELCFFADGSFD  185
+              +L   A++         PD    F              +R+ GS+   LC+ A G+ D
+Sbjct  164  ETDL-AKALVLTEIGPKRDPDTLKVFLSNMERLLHAKAHGVRVIGSSTLALCYLASGAAD  222
+
+Query  186  CFLDIRPGKMLRIYDAAAGVFIAEKAGGKVTELDGESL  223
+             +        L  +D AA   I  +AGG V +  G  L
+Sbjct  223  AYYQFG----LHCWDLAAATVIIREAGGIVIDTSGGPL  256
+
+
+
+
+>RecName: Full=Histidinol-phosphatase; Short=HolPase; AltName: Full=Histidinol-phosphate phosphatase [Corynebacterium glutamicum ATCC 13032]
+Sequence ID: Q8NS80.1 Length: 260
+Range 1: 32 to 260
+
+Score:49.7 bits(117), Expect:7e-06, 
+Method:Compositional matrix adjust., 
+Identities:64/249(26%), Positives:106/249(42%), Gaps:48/249(19%)
+
+Query  32   DVGMGKDGTPTKAADRVAEDAALEILRKERVTVVTEESGVLGE---GDVFVA-----LDP  83
+            +V    D TP   AD   E+A      +E++        +LGE   GDV  +     +DP
+Sbjct  32   EVSSKPDMTPVSDADLATEEAL-----REKIATARPADSILGEEFGGDVEFSGRQWIIDP  86
+
+Query  84   LDGTFNATRGIPVYSVSLCFSYSDKLKDAFFGYVYNLATGDEYYA-DSSGAYR--NGE--  138
+            +DGT N  RG+PV++  +    + K      G +   A    ++A + +GA+R  NG   
+Sbjct  87   IDGTKNYVRGVPVWATLIALLDNGK---PVAGVISAPALARRWWASEGAGAWRTFNGSSP  143
+
+Query  139  -RIEVS-----DAEELYCNAIIYYPDRKF---------PFKRMRIFGSAATELCFFADGS  183
+             ++ VS     D   L  +++  + +R              R+R +G   +  C  A+G+
+Sbjct  144  RKLSVSQVSKLDDASLSFSSLSGWAERDLRDQFVSLTDTTWRLRGYGDFFS-YCLVAEGA  202
+
+Query  184  FDCFLDIRPGKMLRIYDAAAGVFIAEKAGGKVTELDGESLGNKKFDMQERLNIVAANEKL  243
+                +DI     + ++D A    +  +AGGK T L G        D     + VA N  L
+Sbjct  203  ----VDIAAEPEVSLWDLAPLSILVTEAGGKFTSLAG-------VDGPHGGDAVATNGIL  251
+
+Query  244  HPKLLELIK  252
+            H + L+ +K
+Sbjct  252  HDETLDRLK  260
+
+
+
+
+>RecName: Full=Histidinol-phosphatase; Short=HolPase; AltName: Full=Histidinol-phosphate phosphatase [Mycobacterium tuberculosis H37Rv]
+Sequence ID: P95189.2 Length: 260
+Range 1: 36 to 254
+
+Score:47.8 bits(112), Expect:3e-05, 
+Method:Compositional matrix adjust., 
+Identities:65/235(28%), Positives:100/235(42%), Gaps:40/235(17%)
+
+Query  38   DGTPTKAADRVAEDAALEILRKERVTVVTEESGVLGE---------GDVFVALDPLDGTF  88
+            D TP   ADR  E    + L ++R        GVLGE         G  ++ +DP+DGT 
+Sbjct  36   DLTPVTDADRAVESDVRQTLGRDR-----PGDGVLGEEFGGSTTFTGRQWI-VDPIDGTK  89
+
+Query  89   NATRGIPVYSVSLCFSYSDKLKDAFFGYVYNLATGDEYY-ADSSGAYRN-----GERIEV  142
+            N  RG+PV++ SL     D +     G V   A    ++ A   GA+ +       R+ V
+Sbjct  90   NFVRGVPVWA-SLIALLEDGVPS--VGVVSAPALQRRWWAARGRGAFASVDGARPHRLSV  146
+
+Query  143  SDAEELYCNAIIYYPDRKF--PFKRMRIFGSAATELCFFADGSFDCF-------LDIRPG  193
+            S   EL+  ++ +     +  P  R R  G   T     A G F  +       +DI   
+Sbjct  147  SSVAELHSASLSFSSLSGWARPGLRERFIGLTDTVWRVRAYGDFLSYCLVAEGAVDIAAE  206
+
+Query  194  KMLRIYDAAAGVFIAEKAGGKVTELDGESLGNKKFDMQERLNIVAANEKLHPKLL  248
+              + ++D AA   +  +AGG++T LDG +  +         + VA N  LH ++L
+Sbjct  207  PQVSVWDLAALDIVVREAGGRLTSLDGVAGPHGG-------SAVATNGLLHDEVL  254
+
+
+
+
+>RecName: Full=Fructose-1,6-bisphosphatase class 1 1; Short=FBPase class 1 1; AltName: Full=D-fructose-1,6-bisphosphate 1-phosphohydrolase class 1 1 [Xanthobacter autotrophicus Py2]
+Sequence ID: A7IGL7.1 Length: 371
+Range 1: 62 to 159
+
+Score:43.5 bits(101), Expect:7e-04, 
+Method:Compositional matrix adjust., 
+Identities:32/98(33%), Positives:50/98(51%), Gaps:6/98(6%)
+
+Query  16   EVRKAIASMPLR-ERVKDVGMGKDGTPTKAADRVAEDAALEILRKERVTVVTEE---SGV  71
+            ++ +AIA  PL  +  + +  G+ G   KA D ++ D  ++ LRK  V  V  E   + V
+Sbjct  62   QIARAIAEGPLAGDLARTLSSGEAGEGQKALDIISNDMVIDALRKAPVAAVASEENDAPV  121
+
+Query  72   L--GEGDVFVALDPLDGTFNATRGIPVYSVSLCFSYSD  107
+            L   E  + VA+DPLDG+ N    I V ++   F + D
+Sbjct  122  LLDPEAPLLVAIDPLDGSSNIDTDISVGTIFAVFPHQD  159
+
+
+
+
+>RecName: Full=3'(2'),5'-bisphosphate nucleotidase; AltName: Full=3'(2'),5-bisphosphonucleoside 3'(2')-phosphohydrolase; AltName: Full=DPNPase; AltName: Full=Inositol polyphosphate 1-phosphatase; Short=IPPase; AltName: Full=Inositol-1,4-bisphosphate 1-phosphatase [Dictyostelium discoideum]
+Sequence ID: Q55F34.1 Length: 332
+Range 1: 251 to 327
+
+Score:40.8 bits(94), Expect:0.006, 
+Method:Compositional matrix adjust., 
+Identities:27/77(35%), Positives:41/77(53%), Gaps:2/77(2%)
+
+Query  178  FFADGSFDCFLDIRPGKMLR-IYDAAAGVFIAEKAGGKVTELDGESLG-NKKFDMQERLN  235
+              A G  DC+L +        I+D AAG  I E+AGG VT+   + L  +K F ++  + 
+Sbjct  251  MVARGDSDCYLRLTQLDYKECIWDHAAGHIIVEEAGGIVTDFKKQQLDYSKGFKLENNVG  310
+
+Query  236  IVAANEKLHPKLLELIK  252
+            IV +N+ L+  L + IK
+Sbjct  311  IVCSNKLLNDSLFDSIK  327
+
+
+
+
+>RecName: Full=Fructose-1,6-bisphosphatase class 1; Short=FBPase class 1; AltName: Full=D-fructose-1,6-bisphosphate 1-phosphohydrolase class 1 [Brucella suis 1330]
+Sequence ID: Q8FVG9.1 Length: 340
+Range 1: 180 to 304
+
+Score:39.3 bits(90), Expect:0.022, 
+Method:Compositional matrix adjust., 
+Identities:41/155(26%), Positives:66/155(42%), Gaps:39/155(25%)
+
+Query  72   LGEGDVFVALDPLDGTFNATR---GIPVYSVSLCFSYSDKLKDAFFGYVYNLATGDEYYA  128
+            +GEG +F  LDP+ G F+ TR    +P  +  L F+ S +          +L+ G + Y 
+Sbjct  180  VGEGVIFATLDPVSGQFHITRRNVKLPERTSDLAFNASVQ---------RHLSAGMQAYV  230
+
+Query  129  DSSGAYRNGERIEVSDAEELYCNAIIYYPDRKFPFKRMRIFGSAATELCFFAD--GSFDC  186
+            + +   ++G R                   R F    MR  G+A  ++       G F  
+Sbjct  231  NDAFLGKDGPR------------------GRNF---NMRWLGAAVGDMHRIMQRGGLFFY  269
+
+Query  187  FLDIRP----GKMLRIYDAAAGVFIAEKAGGKVTE  217
+              D RP    G++  +Y+A    F+A +AGGK T+
+Sbjct  270  VNDSRPGYEKGRLRLVYEANPIAFLAREAGGKATD  304
+
+
+
+
+>RecName: Full=Fructose-1,6-bisphosphatase class 1; Short=FBPase class 1; AltName: Full=D-fructose-1,6-bisphosphate 1-phosphohydrolase class 1 [Brucella canis ATCC 23365]
+Sequence ID: A9MCF4.1 Length: 340
+Range 1: 180 to 304
+
+Score:39.3 bits(90), Expect:0.022, 
+Method:Compositional matrix adjust., 
+Identities:41/155(26%), Positives:66/155(42%), Gaps:39/155(25%)
+
+Query  72   LGEGDVFVALDPLDGTFNATR---GIPVYSVSLCFSYSDKLKDAFFGYVYNLATGDEYYA  128
+            +GEG +F  LDP+ G F+ TR    +P  +  L F+ S +          +L+ G + Y 
+Sbjct  180  VGEGVIFATLDPVSGQFHITRRNVKLPERTSDLAFNASVQ---------RHLSAGMQAYV  230
+
+Query  129  DSSGAYRNGERIEVSDAEELYCNAIIYYPDRKFPFKRMRIFGSAATELCFFAD--GSFDC  186
+            + +   ++G R                   R F    MR  G+A  ++       G F  
+Sbjct  231  NDAFLGKDGPR------------------GRNF---NMRWLGAAVGDMHRIMQRGGLFFY  269
+
+Query  187  FLDIRP----GKMLRIYDAAAGVFIAEKAGGKVTE  217
+              D RP    G++  +Y+A    F+A +AGGK T+
+Sbjct  270  VNDSRPGYEKGRLRLVYEANPIAFLAREAGGKATD  304
+
+
+
+
+>RecName: Full=Fructose-1,6-bisphosphatase class 1; Short=FBPase class 1; AltName: Full=D-fructose-1,6-bisphosphate 1-phosphohydrolase class 1 [Brucella suis ATCC 23445]
+Sequence ID: A9WZF8.1 Length: 340
+>RecName: Full=Fructose-1,6-bisphosphatase class 1; Short=FBPase class 1; AltName: Full=D-fructose-1,6-bisphosphate 1-phosphohydrolase class 1 [Brucella abortus S19]
+Sequence ID: B2SAG4.1 Length: 340
+>RecName: Full=Fructose-1,6-bisphosphatase class 1; Short=FBPase class 1; AltName: Full=D-fructose-1,6-bisphosphate 1-phosphohydrolase class 1 [Brucella melitensis ATCC 23457]
+Sequence ID: C0RM19.1 Length: 340
+>RecName: Full=Fructose-1,6-bisphosphatase class 1; Short=FBPase class 1; AltName: Full=D-fructose-1,6-bisphosphate 1-phosphohydrolase class 1 [Brucella abortus 2308]
+Sequence ID: Q2YIQ9.1 Length: 340
+>RecName: Full=Fructose-1,6-bisphosphatase class 1; Short=FBPase class 1; AltName: Full=D-fructose-1,6-bisphosphate 1-phosphohydrolase class 1 [Brucella abortus bv. 1 str. 9-941]
+Sequence ID: Q578Z3.1 Length: 340
+>RecName: Full=Fructose-1,6-bisphosphatase class 1; Short=FBPase class 1; AltName: Full=D-fructose-1,6-bisphosphate 1-phosphohydrolase class 1 [Brucella melitensis bv. 1 str. 16M]
+Sequence ID: Q8YCV6.1 Length: 340 
+Range 1: 180 to 304
+
+Score:38.9 bits(89), Expect:0.023, 
+Method:Compositional matrix adjust., 
+Identities:41/155(26%), Positives:66/155(42%), Gaps:39/155(25%)
+
+Query  72   LGEGDVFVALDPLDGTFNATR---GIPVYSVSLCFSYSDKLKDAFFGYVYNLATGDEYYA  128
+            +GEG +F  LDP+ G F+ TR    +P  +  L F+ S +          +L+ G + Y 
+Sbjct  180  VGEGVIFATLDPVSGQFHITRRNVKLPERTSDLAFNASVQ---------RHLSAGMQAYV  230
+
+Query  129  DSSGAYRNGERIEVSDAEELYCNAIIYYPDRKFPFKRMRIFGSAATELCFFAD--GSFDC  186
+            + +   ++G R                   R F    MR  G+A  ++       G F  
+Sbjct  231  NDAFLGKDGPR------------------GRNF---NMRWLGAAVGDMHRIMQRGGLFFY  269
+
+Query  187  FLDIRP----GKMLRIYDAAAGVFIAEKAGGKVTE  217
+              D RP    G++  +Y+A    F+A +AGGK T+
+Sbjct  270  VNDSRPGYEKGRLRLVYEANPIAFLAREAGGKATD  304
+
+
+
+
+>RecName: Full=Uncharacterized protein y4fL [Sinorhizobium fredii NGR234]
+Sequence ID: P55450.1 Length: 275
+Range 1: 44 to 106
+
+Score:38.5 bits(88), Expect:0.034, 
+Method:Compositional matrix adjust., 
+Identities:25/65(38%), Positives:37/65(56%), Gaps:5/65(7%)
+
+Query  42   TKAADRVAEDAALEILRKERVT--VVTEESGVLGEGDV-FVALDPLDGTFNATRGIPVYS  98
+              AADR AE  A  ++  +     +V EE   LG+ +V    +DP+DGT N   GIP+++
+Sbjct  44   VSAADRDAESLARRLIHAQFPADAIVGEEQ--LGDAEVDHWLIDPIDGTANFLSGIPLWA  101
+
+Query  99   VSLCF  103
+            VS+ F
+Sbjct  102  VSIAF  106
+
+
+
+
+
+
+
+		
+
+

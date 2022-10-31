@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <title>Практикум 10</title>
+        <link href="../style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <nav>
+            <a href="../index.html">Главная страница</a> &nbsp 
+            <a href="../about_me.html">О себе</a> &nbsp
+            <a href="../semestry.html"><b>Семестры</b></a> &nbsp
+            <a href="http://www.fbb.msu.ru/" target="_blank">Сайт ФББ</a>
+        </nav>
+        <h3 class="center">Практикум 10</h3>
+        <h4 style="text-align : center">Задание 1</h4>
+        <h5> Параметры BLAST </h5>
+        <p>
+        Enter Query Sequence: AAB91288.1 <br>
+
+Database: UniProtKB/Swiss-Prot(swissprot) <br>
+Algorithm: blastp (protein-protein BLAST) <br>
+Max target sequences: 100 <br>
+Expect threshold: 0.05 <br>
+Word size: 6 <br>
+Matrix: BLOSUM62 <br>
+Gap Costs: Existence: 11 Extension: 1 <br>
+Filter: Low complexity regions <br>
+        </p> 
+        <p>
+        <a href="../files/J20Y01X2016-Alignment.txt" >Текстовая выдача программы (кликабельно)</a>.
+        Всего программа обнаружила 34 последовательности, из них я взял 6 (считая заданную), которые имели наименьшее E-value. По
+        <a href="../files/pr10new2.jvp" download >множественному выравниванию(кликабельно)</a>
+        можно сказать, что белки гомологичны, несмотря на то, что высококонсервативных участков почти нет.
+             </p>
+        <h4 class="center">Задание 2 </h4>
+        <p>
+        Был выбран следующий аннотированый полипротеин:<br>
+        ID:   R1AB_CVHNL     <br>         
+        AC:   P0C6X5; Q6Q1S3 <br>
+        OS:   Human coronavirus NL63 (HCoV-NL63)<br>
+        <br>
+        Был выбран зрелый белок:  Nsp12 RNA-dependent RNA polymerase, находящийся по координатам: 4403..4970. Последовательность белка доступна  по  <a href="../files/protein.fasta"> ссылке </a> Программой BLAST была найдена 39 54 последовательности, из которых я взял 6(считая изначальную), множественной выравнивание данных белков доступно к скачиванию по <a href="../files/qweqwe.jvp" download> ссылке </a>.
+            </p>
+        <p> 
+            Белки гомологичны, так как выравнивание показывает большое количество консервативных групп.
+        </p>
+        <h4 class="center">Задание 3 </h4>
+        <p>
+            По новому запросу (добавился фильтр по организмам : viruses) было найдено 54 последовательности.
+            Из теоремы Карлина можно сделать вывод ( так как K, m, lambda и S ,Будут неизменными), что доля вирусных белков можно оценить зная только E-value для двух поисковых запросов(один с фильтром по организму). Так что: n(viruses)/n=E-value(viruses)/E-value. Было взято значение для одинаковой находки - белка POC6E7.1.
+            <p>
+                Вычисление - n(viruses)/n = 7e-24/2e-22 = 0.035. Из этого следует, что доля вирусных в белков в Swiss-Prot равняется 3.5%.
+        </p>
+             
+            
+        </p>
+        <p class="niz">
+            Задонский Никита, ФББ, 1 курс.
+        </p>
+    </body>
+</html>

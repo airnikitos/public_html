@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <title>Mini-review</title>
+        <link href="../style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <nav>
+            <a href="../index.html">Главная страница</a> &nbsp 
+            <a href="../about_me.html">О себе</a> &nbsp
+            <a href="../semestry.html"><b>Семестры</b></a> &nbsp
+            <a href="http://www.fbb.msu.ru/" target="_blank">Сайт ФББ</a>
+        </nav>
+        <h2 class="center">Обзор генома и протеома бактерии Legionella pneumophila</h2>
+        <h3>1. Введение</h3>
+        <p>
+           Цель данного обзора - провести исследование генома и протеома бактерии Legionella pneumophila.
+           Legionella pneumophila - грамотрицательная палочковидная бактерия, имеющая следующую классификацию:
+        </p>
+        <table>
+                <caption><h5>Таблица 1. Классификация</h5></caption>
+                <tr>
+                    <td style="border: 1px solid black">Домен</td>
+                    <td style="border: 1px solid black">Bacteria</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid black">Тип</td>
+                    <td style="border: 1px solid black">Proteobacteria</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid black">Класс</td>
+                    <td style="border: 1px solid black">Gammaproteobacteria</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid black">Порядок</td>
+                    <td style="border: 1px solid black">Legionellales</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid black">Семейство</td>
+                    <td style="border: 1px solid black">Legionellaceae</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid black">Род</td>
+                    <td style="border: 1px solid black">Legionella</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid black">Вид</td>
+                    <td style="border: 1px solid black">L. pneumophila</td>
+                </tr>
+        </table>
+        <p>
+            Данная бактерия подвижна, имеет жгутик. На препаратах может располагаться либо одиночно, либо небольшими скоплениями. Может расти на обогащенных  питательных средах ( не на простых), например на                   казеиново-угольном агаре КУА. Является внутриклеточным паразитом некоторых простейших, обитает в теплых пресных водоемах. Известна в первую очередь тем, что является возбудителем легионеллеза у                     человека( поэтому  отнесена к iii классу патогенности. Геном представлен одной двухцепочечной кольцевой  молекулой ДНК. 
+        </p>
+        <h3>2. Методы </h3>
+        <p>
+            Для исследования в мини обзоре были использованы файлов, содержащих данные о геноме и протеоме бактерии Legionella neumophila, скачанные с сайта.
+            <br>3.1. - Результаты были получены при помощи программы на языке python, файл с которой приложен в сопроводительных материалах.
+            <br>3.2. -  GC skew. Для получения результата CGskew была использована программа на языке python, написанная мной, которая приложена в сопроводительные материалы. Для вычисления CG skew cumulative была                     использована таблица google sheets и функция суммирования в ней. 
+            <br>3.3 и 3.2. - Для получения результатов были использованы таблицы google sheets и такие их функции, как: binom.dist, срзнач и фильтры.
+        </p>  
+        <h3>3. Результаты </h3>
+        <h4>3.1 Количественный нуклеотидный состав </h4>
+        <p>
+            Ниже представлены основные основные данные о количественном составе генома.
+Геном бактерии Legionella pneumophila находится на одной хромосоме. 
+В следующей таблице представлен количественный состав генома по нуклеотидам(представлены только ATGC).
+Общее количество нуклеотидов: 3.409.143
+        </p>
+        <table>
+            <caption><h5>Таблица 2. Количество нуклеотидов</h5></caption>
+                <tr>
+                    <td style="border: 1px solid black">Нуклеотид</td>
+                    <td style="border: 1px solid black">А</td>
+                    <td style="border: 1px solid black">Т</td>
+                    <td style="border: 1px solid black">G</td>
+                    <td style="border: 1px solid black">C</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid black">Количество</td>
+                    <td style="border: 1px solid black">1051644</td>
+                    <td style="border: 1px solid black">1050926</td>
+                    <td style="border: 1px solid black">655105</td>
+                    <td style="border: 1px solid black">651468</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid black">Кол-я доля</td>
+                    <td style="border: 1px solid black">0.3085</td>
+                    <td style="border: 1px solid black">0.3083</td>
+                    <td style="border: 1px solid black">0.1922</td>
+                    <td style="border: 1px solid black">0.1911</td>
+                </tr>
+        </table>
+        <p> 
+            По данным приведенным в таблице видно, что выполняется первое правило Чаргаффа. (Количество аденина равно количеству тимина, количество гуанина равно количеству 
+цитозина). Так же заметно, что аденина и тимина больше чем гуанина и цитозина.
+        </p>
+        <h4>3.2 Определение точек ориджина и терминации репликации. </h4>
+        <p>
+            Для расчета была использована формула (G_count - C_count) / (G_count + C_count). Для                 каждой позиции step(я взял 1000 символов) в геноме было взято окно window(взял 100000). 
+            <br> Минимальное значение соответствует точке ориджина репликации, а максимальное - точке             ее терминации.
+        </p>
+        <figure>
+            <figcaption>
+                <h5> График 1. CGskew </h5>
+            </figcaption>
+            <img src="./files/фыв.png" alt="Красивое фото">
+        </figure>
+        <h4>3.3 Распределение генов по цепям ДНК. </h4>
+        <p>
+            Для данного исследования была использована таблица CDS
+        </p>
+        <table>
+            <caption><h5>Таблица 3. Распределение генов по цепям ДНК </h5></caption>
+                <tr>
+                    <td style="border: 1px solid black">Ген</td>
+                    <td style="border: 1px solid black">+strand</td>
+                    <td style="border: 1px solid black">-strand</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid black">protein_coding</td>
+                    <td style="border: 1px solid black">1454</td>
+                    <td style="border: 1px solid black">1507</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid black">pseudogene</td>
+                    <td style="border: 1px solid black">12</td>
+                    <td style="border: 1px solid black">11</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid black">tRNA</td>
+                    <td style="border: 1px solid black">26</td>
+                    <td style="border: 1px solid black">26</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid black">rRNA</td>
+                    <td style="border: 1px solid black">6</td>
+                    <td style="border: 1px solid black">3</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid black">RNase_P_RNA</td>
+                    <td style="border: 1px solid black">0</td>
+                    <td style="border: 1px solid black">2</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid black">tmRNA</td>
+                    <td style="border: 1px solid black">1</td>
+                    <td style="border: 1px solid black">0</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid black">SPR_RNA</td>
+                    <td style="border: 1px solid black">2</td>
+                    <td style="border: 1px solid black">0</td>
+                </tr>
+            
+        </table> 
+        <p>
+            Для участков, кодирующих белки( protein coding) была рассчитана степень случайности - она оказалась 0.339, что говорит о случайном различии этих чисел. Некоторые гены, такие как pseudogene, tRNA и rRNA, имеют степень случайности в районе единицы. Гены 
+RNase_P_RNA, SPR_RNA и tmRNA встречаются лишь на одной из двух цепочек и, видимо, исполняют специфические функции. 
+
+        </p>
+        <h4>3.4 Длины белков бактерии</h4>
+        <p>
+            Для данного исследования была использована таблица CDS.
+        </p>
+        <figure>
+            <figcaption>
+                <h5> График 2.  Длины белков </h5>
+            </figcaption>
+            <img src="./files/123.png" alt="Красивое фото">
+        </figure>
+        <p>
+        Из графика видно, что большая часть белков имеет от 150 до 350 аминокислот, но встречаются и необычно длинные. Например, альфа-2-макроглобулин кодируется 1921-й аминокислотой. 
+        </p>
+        <h3>4. Вывод </h3>
+        <p>
+            В данном мини исследовании получено некоторые статистические данные, которые сами по себе интересны, а так же могут помочь в 
+дальнейшем исследовании генома и протеома бактерии Legionella pneumophila.
+        </p>
+        <h3>4. Сопроводительные материалы </h3>
+        <p>
+           Гугл-папка, в которой находятся все необходимые материалы -  
+            <a href="https://drive.google.com/drive/folders/1kCWwNYDbv9kMSDs5WGGGyc2q9VZvoxMN?usp=sharing" target="_blank">Сопроводительные материалы</a>
+        </p>
+        <h3>4. Использованные источники </h3>
+        <p>
+            <a href="https://en.wikipedia.org/wiki/Legionella_pneumophila" target="_blank">1. Wikipedia</a>
+           <br> <a href="https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/001/941/585/GCF_001941585.1_ASM194158v1/" target="_blank">2. Сайт NCBI</a>
+        <p class="niz">
+            Задонский Никита, ФББ, 1 курс.
+        </p>
+    </body>
+</html>
